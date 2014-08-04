@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/process_exists.svg)](http://badge.fury.io/rb/process_exists)
 [![Code Climate](https://codeclimate.com/github/wilsonsilva/process_exists/badges/gpa.svg)](https://codeclimate.com/github/wilsonsilva/process_exists)
+[![Build Status](https://travis-ci.org/wilsonsilva/process_exists.svg?branch=master)](https://travis-ci.org/wilsonsilva/process_exists)
 [![Dependency Status](https://gemnasium.com/wilsonsilva/process_exists.svg)](https://gemnasium.com/wilsonsilva/process_exists)
 
 ## Description
