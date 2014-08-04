@@ -5,7 +5,7 @@ rvm:
   - 1.9.3
   - 2.1.2
 
-script: 'bundle exec rake'
+script: 'CODECLIMATE_REPO_TOKEN=60547bb26da976413277b29ddb8eadef1f563dff8ba2cf905618c8e6195c7f3e bundle exec rake'
 
 notifications:
   email:

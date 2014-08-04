@@ -1,6 +1,7 @@
 Gemfile.lock
 doc/
 pkg/
+coverage/
 vendor/cache/*.gem
 .yardoc/
 .idea/
