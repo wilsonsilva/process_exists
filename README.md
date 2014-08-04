@@ -1,5 +1,6 @@
 # process_exists
 
+[![Code Climate](https://codeclimate.com/github/wilsonsilva/process_exists/badges/gpa.svg)](https://codeclimate.com/github/wilsonsilva/process_exists)
 [![Dependency Status](https://gemnasium.com/wilsonsilva/process_exists.svg)](https://gemnasium.com/wilsonsilva/process_exists)
 
 ## Description
