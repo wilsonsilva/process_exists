@@ -1,5 +1,9 @@
 # process_exists
 
+[![Dependency Status](https://gemnasium.com/wilsonsilva/process_exists.svg)](https://gemnasium.com/wilsonsilva/process_exists)
+
+## Description
+
 Sends the signal 0 to a given PID to check if any process with the given PID is running.
 
 ## Examples
