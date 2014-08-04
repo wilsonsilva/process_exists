@@ -5,7 +5,7 @@ rvm:
   - 1.9.3
   - 2.1.2
 
-script: 'CODECLIMATE_REPO_TOKEN=60547bb26da976413277b29ddb8eadef1f563dff8ba2cf905618c8e6195c7f3e bundle exec rake'
+script: 'bundle exec rake'
 
 notifications:
   email:
@@ -13,3 +13,7 @@ notifications:
       - wilson.dsigns@gmail.com
     on_failure: change
     on_success: never
+
+addons:
+  code_climate:
+    repo_token: 60547bb26da976413277b29ddb8eadef1f563dff8ba2cf905618c8e6195c7f3e
