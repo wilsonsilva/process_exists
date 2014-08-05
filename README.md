@@ -7,15 +7,14 @@
 
 ## Description
 
-Sends the signal 0 to a given PID to check if any process with the given PID is running.
+Sends a null signal to a process or a group of processes specified by pid to check if it exists.
 
-## Examples
+## Usage
 
     require 'process_exists'
 
-    pid = 278
-    exists = Process.exists?(pid)
-    puts exists ? 1 : 0
+    pid = 12
+    pid_exists = Process.exists?(pid)
 
 ## Requirements
 
