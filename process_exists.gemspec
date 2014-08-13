@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "process_exists"
   gem.version       = ProcessExists::VERSION
   gem.summary       = "Checks if a PID exists."
-  gem.description   = "Sends the signal 0 to a given PID to check if any process with the given PID is running."
+  gem.description   = "Sends a null signal to a process or a group of processes specified by pid to check if it exists."
   gem.license       = "MIT"
   gem.authors       = ["wilsonsilva"]
   gem.email         = "me@wilsonsilva.net"
