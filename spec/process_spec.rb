@@ -15,11 +15,9 @@ describe Process do
       expect(subject.exists?(Process.pid)).to be true
     end
 
-    if running_specs_as_root?
-      it "returns true when a pid exists and belongs to another user" do
-        # Process ID 1 is usually the init process primarily responsible for starting and shutting down the system.
-        expect(subject.exists?(1)).to be true
-      end
-    end
+    it "returns true when a pid exists and belongs to another user" do
+      # Process ID 1 is usually the init process primarily responsible for starting and shutting down the system.
+      expect(subject.exists?(1)).to be true
+    end unless running_specs_as_root?
   end
 end
