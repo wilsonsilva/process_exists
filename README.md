@@ -12,10 +12,12 @@ Sends a null signal to a process or a group of processes specified by pid to che
 
 ## Usage
 
-    require 'process_exists'
+```ruby
+require 'process_exists'
 
-    pid = 12
-    pid_exists = Process.exists?(pid)
+pid = 12
+pid_exists = Process.exists?(pid)
+```
 
 ## Requirements
 
@@ -23,4 +25,7 @@ A Unix-like operating system.
 
 ## Install
 
-    $ gem install process_exists
+```bash
+$ gem install process_exists
+```
+
