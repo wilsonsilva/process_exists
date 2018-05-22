@@ -20,6 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'bundler', '~> 1.16'
   gem.add_development_dependency 'rake', '~> 12.3'
   gem.add_development_dependency 'rspec', '~> 3.7'
-  gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   gem.add_development_dependency 'yard', '~> 0.9'
 end
