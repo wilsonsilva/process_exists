@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/wilsonsilva/process_exists.svg?branch=master)](https://travis-ci.org/wilsonsilva/process_exists)
 [![Code Climate](https://codeclimate.com/github/wilsonsilva/process_exists/badges/gpa.svg)](https://codeclimate.com/github/wilsonsilva/process_exists)
 [![Test Coverage](https://codeclimate.com/github/wilsonsilva/process_exists/badges/coverage.svg)](https://codeclimate.com/github/wilsonsilva/process_exists)
-[![Dependency Status](https://gemnasium.com/wilsonsilva/process_exists.svg)](https://gemnasium.com/wilsonsilva/process_exists)
+[![Depfu](https://badges.depfu.com/badges/ffec1fc2a9f213d8538dfc0d3958c788/overview.svg)](https://depfu.com/github/wilsonsilva/process_exists)
 [![Inline docs](http://inch-ci.org/github/wilsonsilva/process_exists.png?branch=master)](http://inch-ci.org/github/wilsonsilva/process_exists)
 
 ## Description
