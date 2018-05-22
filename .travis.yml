@@ -1,19 +1,20 @@
 language: ruby
 
+env:
+  global:
+    - CC_TEST_REPORTER_ID=60547bb26da976413277b29ddb8eadef1f563dff8ba2cf905618c8e6195c7f3e
+
 rvm:
-  - jruby
-  - 1.9.3
-  - 2.1.2
+  - 2.5.0
 
-script: 'bundle exec rake'
+before_install: gem install bundler -v 1.16.1
 
-notifications:
-  email:
-    recipients:
-      - wilson.dsigns@gmail.com
-    on_failure: change
-    on_success: never
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+scripts:
+  - bundle exec rspec spec
 
-addons:
-  code_climate:
-    repo_token: 60547bb26da976413277b29ddb8eadef1f563dff8ba2cf905618c8e6195c7f3e
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
