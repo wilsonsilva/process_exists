@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'process_exists'
 
 describe Process do
   it 'responds to :exists?' do

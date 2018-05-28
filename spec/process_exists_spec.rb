@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'process_exists'
 
 describe ProcessExists do
   it 'has a VERSION constant' do
