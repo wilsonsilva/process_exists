@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_development_dependency 'bundler', '~> 1.16'
-  gem.add_development_dependency 'rake', '~> 12.3'
+  gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.7'
   gem.add_development_dependency 'simplecov', '~> 0.16'
   gem.add_development_dependency 'simplecov-console', '~> 0.4'
