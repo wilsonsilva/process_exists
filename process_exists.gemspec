@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'bundler', '~> 2.1'
   gem.add_development_dependency 'rake', '~> 12.3'
   gem.add_development_dependency 'rspec', '~> 3.9'
-  gem.add_development_dependency 'simplecov', '~> 0.17.1'
+  gem.add_development_dependency 'simplecov', '~> 0.21.0'
   gem.add_development_dependency 'simplecov-console', '~> 0.7'
   gem.add_development_dependency 'yard', '~> 0.9'
 end
